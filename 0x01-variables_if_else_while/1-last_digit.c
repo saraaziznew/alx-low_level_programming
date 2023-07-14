@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
-  * main - An entry 
+  * main-An entry 
   * Return: 0 (success)
   */
 int main(void)
