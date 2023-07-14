@@ -2,10 +2,11 @@
 /**
  * main - enter point
  * Return: alweys 0
- * */
+ */
 int main(void)
 {
-	putchar(65);
-	putchar('\n');
+	int n;
+	for(n=97;n<=122;n++)
+		putchar(n);
 	return (0);
 }
