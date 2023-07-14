@@ -2,6 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
+/*main - A program that contains random number generate functions and if statments tht print if the number is positive or negative or zero
+ * Return: 0 (success)*/
 
 /* betty style doc for function main goes there */
 int main(void)
