@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-  *main - Entry point of code 
-  *Return: 0 (success)
-  */
+ * main - entry pooint
+ * return: 0
+ */
 int main(void)
 {
 	int n;
