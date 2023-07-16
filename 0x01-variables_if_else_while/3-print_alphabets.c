@@ -6,12 +6,9 @@
 int main(void)
 {
 	int n;
-
+	int m;
+	
 	for (n = 97; n >= 122; n++)
-	{
-		putchar(n);
-	}
-	for (n = 65; n >= 90; n++)
 	{
 		putchar(n);
 	}
