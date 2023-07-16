@@ -1,17 +1,19 @@
 #include <stdio.h>
 /**
- * main - enter point
- * Return: 0 alwyes
+ * main - entry pouint
+ * Return: 0 (success)
  */
 int main(void)
 {
-	int n;
-	int m;
-	
-	for (n = 97; n >= 122; n++)
-	{
-		putchar(n);
-	}
-	putchar('\n');
-	return (0);
+int n;
+for (n = 97; n <= 122; n++)
+{
+	putchar(n);
+}
+for (n = 65; n <= 90; n++)
+{
+	putchar(n);
+}
+putchar('\n');
+return (0);
 }
