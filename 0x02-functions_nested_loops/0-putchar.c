@@ -8,6 +8,5 @@ int main()
 	char c[]  = "_putchar";
 
 	puts(c);
-	putchar('\n');
 	return (0);
 }
