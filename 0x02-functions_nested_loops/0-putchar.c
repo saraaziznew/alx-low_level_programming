@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main"
 /**
  * main - entry point
  * Return: 0 (success)
