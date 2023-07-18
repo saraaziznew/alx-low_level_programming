@@ -3,9 +3,9 @@
  * main - entry point
  * Return: 0 (success)
  */
-int main()
+int main(void)
 {
-	char c[]  = "_putchar";
+	char c[] = "_putchar";
 
 	puts(c);
 	return (0);
