@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "0x02-functions_nested_loops/main.h"
 /**
  * main - entry point
  * Return: 0 (success)
