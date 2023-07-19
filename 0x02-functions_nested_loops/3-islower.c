@@ -12,7 +12,7 @@ int _islower(int c)
 	for (i = 97; i <= 122; i++)
 	{
 		r = islower(i);
-	        if (i == 99)
+	        if (r == 99)
 		{
 			_putchar('1');
 		}
@@ -20,5 +20,6 @@ int _islower(int c)
 		{
 			_putchar('0');
 		}
+	
 	}
 }
