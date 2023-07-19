@@ -11,7 +11,7 @@ int _islower(int c)
 	for (c = 97; c <= 122; c++)
 	{
 		r = islower(c);
-	        if (r == 99)
+	        if (r == 'c')
 		{
 			_putchar('1');
 		}
