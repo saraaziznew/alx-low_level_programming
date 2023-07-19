@@ -9,13 +9,13 @@ int _islower(int c)
 	int r;
 
 	r = islower(c);
-	if (r == 99)
+	if (r == 'c')
 	{
-		_putchar(49 + r);
+		_putchar('1');
 	}
 	else
 	{
-		_putchar(48 + r);
+		_putchar('0');
 	}
 	return 0;
 }
