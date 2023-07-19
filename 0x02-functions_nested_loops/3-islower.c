@@ -10,6 +10,7 @@ int _islower(int c)
 	int r;
 
 	for (i = 97; i <= 122; i++)
+	{
 		r = islower(i);
 	        if (i == 99)
 		{
@@ -19,4 +20,5 @@ int _islower(int c)
 		{
 			_putchar('0');
 		}
+	}
 }
