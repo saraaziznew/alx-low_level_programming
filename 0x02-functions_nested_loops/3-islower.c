@@ -6,12 +6,11 @@
  */
 int _islower(int c)
 {
-	int i;
 	int r;
 
-	for (i = 97; i <= 122; i++)
+	for (c = 97; c <= 122; c++)
 	{
-		r = islower(i);
+		r = islower(c);
 	        if (r == 99)
 		{
 			_putchar('1');
