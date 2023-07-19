@@ -9,6 +9,7 @@ int _islower(int c)
 	int r;
 
 	for (c = 97; c <= 122; c++)
+	{
 		r = islower(c);
 	        if (r == 99)
 		{
@@ -18,4 +19,5 @@ int _islower(int c)
 		{
 			_putchar('0');
 		}
+	}
 }
