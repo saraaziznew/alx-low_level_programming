@@ -8,17 +8,14 @@ int _islower(int c)
 {
 	int r;
 
-	for (c = 97; c <= 122; c++)
+	r = islower(c);
+	if (r == 99)
 	{
-		r = islower(c);
-	        if (r == 99)
-		{
-			_putchar(49 + r);
-		}
-		else
-		{
-			_putchar(48 + r);
-		}
+		_putchar(49 + r);
+	}
+	else
+	{
+		_putchar(48 + r);
 	}
 	return 0;
 }
