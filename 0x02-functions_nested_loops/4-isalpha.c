@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- *_isalpha - function show 1 if the input is a
- other cases show 0
- * @c - parameter 
- * Return: 0 (success)
+ * _isalpha - show 1 if the input is a 
+ * letter another cases, show 0
+ *
+ * @c: the character in ASCI code
+ *
+ * Return: 1 for leteers. 0 for rest
  */
 int _isalpha(int c)
 {
