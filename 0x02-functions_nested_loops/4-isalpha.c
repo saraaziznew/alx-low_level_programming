@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - show 1 if the input is a 
+ * _isalpha - show 1 if the input is a
  * letter another cases, show 0
  *
  * @c: the character in ASCI code
