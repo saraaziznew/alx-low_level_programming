@@ -3,7 +3,6 @@
  * more-numbers - print 0 -14 ten times
  * Return: 0 (success)
  */
-int _putchar(char c);
 void more_numbers(void)
 {
 	int b;
