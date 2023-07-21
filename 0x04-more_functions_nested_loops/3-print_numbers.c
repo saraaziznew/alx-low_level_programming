@@ -3,7 +3,6 @@
  * print_numbers - print 0 - 9
  * Return: 0 (success)
  */
-int _putchar(char c);
 void print_numbers(void)
 {
 	char c;
