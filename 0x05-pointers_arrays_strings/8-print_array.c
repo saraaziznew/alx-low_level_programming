@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_array - entry point
- * @a: string to print 
+ * @a: string to print
  * @n: string to print
  * Return: 0 (success)
  */
