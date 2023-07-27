@@ -8,9 +8,14 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *dest[100], *src[100];
+	int c, c2;
 
-	strcpy(*dest, "SARA you");
-	strcpy(*src, "are beautiful");
-	_putchar(*dest);
+	c = 0;
+	while (dest[0])
+		c++;
+
+	for (c2 = 0; src[c2]; c2++)
+		dest[c++] = src[c2];
+
+	return (dest);
 }
