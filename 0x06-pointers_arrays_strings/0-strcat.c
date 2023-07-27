@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * *_strcat - entry point
  * @dest: string to print
