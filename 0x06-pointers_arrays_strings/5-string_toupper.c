@@ -1,19 +1,20 @@
 #include "main.h"
 /**
  * *string_toupper - entry point
- * @str: string to print
+ * @n: string to print
  * Return: 0 (success)
  */
-char *string_toupper(char *str)
+char *string_toupper(char *n)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	i = 0;
+
+	while (n[i] != '\n')
 	{
-		if (str[i] >= 97 && str[i] <= 122)
-		{
-			str[i] = srt[i] - 32;
-		}
+		if (n[i] >= 'a' && n[i] <= 'z')
+			n[i] = n[i] - 32;
+		i++
 	}
-	return (str);
+	return (n);
 }
