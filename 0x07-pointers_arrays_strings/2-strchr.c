@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_memcpy - entry point
+ * *_strchr - entry point
  * @c: string to print
  * @s: string to print
  * Return: 0 (success)
