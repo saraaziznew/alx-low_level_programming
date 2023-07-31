@@ -17,11 +17,11 @@ char *_strpbrk(char *s, char *accept)
 		while (accept[j] != '\0')
 		{
 			if (accept[j] == s[i])
-					{
-					p = &s[i];
-					return (p);
-					}
-					j++;
+			{
+				p = &s[i];
+				return (p);
+			}
+			j++;
 		}
 		i++;
 		}
