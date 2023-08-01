@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_chessboard - entry point
+ * print_diagsums - entry point
  * @a: string to print
  * @size: string to print
  * Return: 0 (success)
