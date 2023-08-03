@@ -16,7 +16,7 @@ return (check_prime(n, 2));
  * @oth: string to print
  * Return: 0 (success)
  */
-int check_prime(int n, int oth);
+int check_prime(int n, int oth)
 {
 if (oth >= n && n > 1)
 {
