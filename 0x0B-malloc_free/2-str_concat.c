@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * _strlen - entry point
  * @s: string to print
