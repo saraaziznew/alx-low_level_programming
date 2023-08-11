@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * *_memset - entry point
- * @s:string to print
- * @b:string to print
- * @n:string to print
- * Return: 0 (success)
+ * *_memset - fills memory with a constant byte
+ * @s: pointer to put the constant
+ * @b: constant
+ * @n: max bytes to use
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -17,9 +17,9 @@ char *_memset(char *s, char b, unsigned int n)
 }
 /**
  * *_calloc - entry point
- * @nmemb:string to print
- * @size:string to print
- * Return: 0 (success)
+ * @nmemb: array length
+ * @size: size of each element
+ * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
