@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * *malloc_checked - entry point
  * @b: string to print
