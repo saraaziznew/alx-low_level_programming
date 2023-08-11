@@ -4,6 +4,7 @@
  * *array_range - entry point
  * @min:string to print
  * @max:string to print
+ * Return: 0 (success)
  */
 int *array_range(int min, int  max)
 {
