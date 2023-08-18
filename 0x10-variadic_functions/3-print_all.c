@@ -19,8 +19,8 @@ void format_int(char *separator, va_list ap)
 {
 printf("%s%d", separator, va_arg(ap, int));
 		}
-		/**
- * format_string - format string
+/**
+ * format_string - function to
  * @separator: string to print
  * @ap:string to print
  * Return: 0 (success)
@@ -34,8 +34,8 @@ printf("%s%d", separator, va_arg(ap, int));
 		str = "(nil)";
 		printf("%s%s", separator, str);
 		}
-		/**
- * print_all - entry point
+/**
+ * print_all - function to print all
  * @format:stirng to print
  * @...:string to print
  * Return: 0 (success)
@@ -59,14 +59,14 @@ while (format && format[i])
 	while (tokens[j].token)
 	{
 		if (format[i] == tokens[j].token[0])
-				{
-				tokens[j].f(separator, ap);
-				separator = ", ";
-				}
-				j++;
-				}
-				i++;
-				}
-				printf("\n");
-				va_end(ap);
-				}
+		{
+			tokens[j].f(separator, ap);
+			separator = ", ";
+		}
+		j++;
+	}
+	i++;
+}
+printf("\n");
+va_end(ap);
+}
