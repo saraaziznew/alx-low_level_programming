@@ -20,6 +20,16 @@ void format_int(char *separator, va_list ap)
 printf("%s%d", separator, va_arg(ap, int));
 		}
 /**
+ * format_float - format float
+ * @separator: string to 
+ * @ap: string to
+ * Return: 0 (success)
+ */
+void format_float(char *separator, va_list ap)
+{
+	printf("%s%f", separator, va_arg(ap, double));
+}
+/**
  * format_string - function to
  * @separator: string to print
  * @ap:string to print
