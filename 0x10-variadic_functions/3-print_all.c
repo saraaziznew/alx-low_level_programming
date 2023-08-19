@@ -21,7 +21,7 @@ printf("%s%d", separator, va_arg(ap, int));
 		}
 /**
  * format_float - format float
- * @separator: string to 
+ * @separator: string to
  * @ap: string to
  * Return: 0 (success)
  */
@@ -58,7 +58,7 @@ va_list ap;
 token_t tokens[] = {
 	{"c", format_char},
 	{"i", format_int},
-	{"f", format_int},
+	{"f", format_float},
 	{"s", format_string},
 	{NULL, NULL}
 };
