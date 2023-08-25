@@ -1,6 +1,20 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
+ * _strlen - function to get length
+ * @s: string to print
+ * Return: 0 (success)
+ */
+int _strlen(char *s)
+{
+	int i = 0;
+
+	if (!s)
+		return (0);
+	while (*s++)
+		i++;
+}
+/**
  * *add_node - function to add new node
  * @head: string to print
  * @str: string to print
