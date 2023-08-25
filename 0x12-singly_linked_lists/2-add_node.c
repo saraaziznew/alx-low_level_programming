@@ -1,19 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
-/**
- * _strlen - function to get length
- * @s: string to print
- * Return: 0 (success)
- */
-int _strlen(char *s)
-{
-	int i = 0;
-
-	if (!s)
-		return (0);
-	while (*s++)
-		i++;
-}
+#include <string.h>
+#include <stdio.h>
 /**
  * *add_node - function to add new node
  * @head: string to print
@@ -24,7 +12,7 @@ list_t *add_node(list_t **head, const char *str)
 {
 	list_t *newhead = malloc(sizeof(list_t));
 
-	if (!head == !newhead)
+	if (!head || !newhead)
 		return (NULL);
 	if (str)
 	{
@@ -34,7 +22,7 @@ list_t *add_node(list_t **head, const char *str)
 			free(newhead);
 			return (NULL);
 		}
-		newhead->len = _strlen(newhead->str);
+		newhead->len = strlen(newhead->str);
 	}
 	newhead->next = *head;
 	*head = newhead;
