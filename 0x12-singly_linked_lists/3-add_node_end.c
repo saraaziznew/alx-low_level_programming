@@ -1,6 +1,6 @@
 #include "lists.h"
 #include <string.h>
-#include <strlib.h>
+#include <stdlib.h>
 /**
  * add_node_end - to add node in the end
  * @head: string to print
@@ -33,5 +33,4 @@ list_t *add_node_end(list_t **head, const char *str)
 		else
 			*head = newnode;
 		return (newnode);
-	}
 }
