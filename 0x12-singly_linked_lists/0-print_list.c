@@ -1,7 +1,21 @@
 #include "lists.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <stddef.h>
+#include <string.h>
+/**
+ * _strlen - function to get length
+ * @s: string to print
+ * Return: 0 (success)
+ */
+int _strlen(char *s)
+{
+	int i = 0;
+
+	if (!s)
+		return (0);
+	while (*s++)
+		i++;
+	return (i);
+}
 /**
  * print_list - function to print elements
  * @h: point to struct
@@ -9,16 +23,16 @@
  */
 size_t print_list(const list_t *h)
 {
+	size_t i = 0;
 	const list_t *ptr = NULL;
-	if (h == NULL)
-		printf("Linked list is empty");
 
 	ptr = h;
 
 	while (ptr != NULL)
 	{
-		printf("%s", ptr->str);
-		ptr = ptr->next;
+		printf("[%d] %s\n", _strlen(ptr->str), (ptr->str) ? (ptr->str) : "(nil)");
+	       ptr = ptr->next;
+		i++;
 	}
-	return (0);
+	return (i);
 }
