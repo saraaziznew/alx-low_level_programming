@@ -1,4 +1,4 @@
-#ifndef  lists_h
+#ifndef lists_h
 #define lists_h
 
 #include <stdio.h>
@@ -15,8 +15,8 @@
  */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
 
 int _putchar(char c);
