@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 /**
  * binary_to_uint: function to convert the number 
  * b: string to print
@@ -18,5 +17,5 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		num = num * 2 + (*b++ - '0');
 	}
-	return (0);
+	return (num);
 }
