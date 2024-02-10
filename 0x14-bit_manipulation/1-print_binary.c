@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_binary - function to convert the number
+ * print_binary - prints a number as binary string
  * @n: number to print
  * Return: void
  */
