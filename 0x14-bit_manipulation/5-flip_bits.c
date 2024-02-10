@@ -1,6 +1,7 @@
 #include "main.h"
-/*
- * flip_bits - flip the bit at the index
+/**
+ * flip_bits - return number of bitd that would need to be flipped to transform 
+ * one number to another
  * @n: first number
  * @m: second number
  *
