@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+/*
  * flip_bits - flip the bit at the index
  * @n: first number
  * @m: second number
