@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * flip_bit - clears the bit at the index
+ * flip_bits - flip the bit at the index
  * @n: first number
  * @m: second number
  *
